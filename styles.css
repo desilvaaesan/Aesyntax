@@ -15,6 +15,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px 20px;
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -45,9 +46,7 @@ body {
     margin-left: 20px;
 }
 
-.header img {
-    max-width: 400px;
-}
+
 
 .header h1 {
     font-size: 48px;
@@ -58,5 +57,72 @@ body {
 .header p {
     font-size: 18px;
     color: #E5e7eb;
+}
+
+.header button {
+    background-color: #3882f6;
+    color: #fff;
+    padding:8px 24px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+}
+
+.header img {
+    max-width: 350px;
+}
+
+.header {
+    margin: 9em 0;
+    min-height: 400px;
+}
+.header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header h1 {
+    line-height: 1.5;
+} 
+
+.header p {
+    margin-bottom: 10px;
+}
+
+.information {
+    background-color: #fff;
+}
+
+.information .container {
+    padding: 50px 0;
+}
+
+
+.information h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.boxes img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.information .boxes {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px;
+
+}
+
+.information .box {
+    flex: 1;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 30px;
 }
 
