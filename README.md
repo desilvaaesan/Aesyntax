@@ -29,7 +29,7 @@ Aesyntax is a digital canvas where creativity and code converge. This website is
 
 ## Folder Structure
 
-\```
+```
 Aesyntax/
 │
 ├── images/                 # Contains all images used in the project
@@ -42,7 +42,7 @@ Aesyntax/
 ├── styles.css              # Main CSS file for styling the website
 │
 └── index.html              # Main HTML file for the website structure
-\```
+```
 
 
 ---
