@@ -29,18 +29,7 @@ Aesyntax is a digital canvas where creativity and code converge. This website is
 
 ## Folder Structure
 
-Aesyntax/
-│
-├── images/                 # Contains all images used in the project
-│   ├── header.png          # Header image used in the main section
-│   ├── ui-ux.png           # Icon for UI/UX Design skill
-│   ├── html-5.png          # Icon for HTML skill
-│   ├── css-3.png           # Icon for CSS skill
-│   └── git.png             # Icon for Git skill
-│
-├── styles.css              # Main CSS file for styling the website
-│
-└── index.html              # Main HTML file for the website structure
+aesyntax-portfolio/ │ ├── images/ # Contains all images used in the project │ ├── header.png # Header image used in the main section │ ├── ui-ux.png # Icon for UI/UX Design skill │ ├── html-5.png # Icon for HTML skill │ ├── css-3.png # Icon for CSS skill │ └── git.png # Icon for Git skill │ ├── styles.css # Main CSS file for styling the website │ └── index.html # Main HTML file for the website structure
 
 ---
 Thank you for visiting Aesyntax! I hope you enjoy exploring my work as much as I enjoyed creating it.
