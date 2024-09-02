@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #1f2937;
 }
 
@@ -15,7 +15,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px 20px;
-    margin-bottom: 20px;
 }
 
 .logo {
@@ -24,39 +23,61 @@ body {
     color: #F9FAF8;
 }
 
+/* Navbar styles */
+
+.navbar {
+    background-color: #1f2937;
+}
+
 .navbar ul {
     list-style-type: none;
     display: flex;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar a {
     text-decoration: none;
     color: #E5e7eb ;
     font-size: 18px;
+    padding: 10px;
+}
+
+.navbar a:hover, 
+.navbar a:focus {
+    color: #3882f6;
+    text-decoration: underline;
 }
 
 .navbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    height: 60px;
+}
+/* Header Styles */
+.header {
+    margin: 4em 0;
+    min-height: 50vh;
+    background-color: #1f2937;
+    color: #F9FAF8;
 }
 
-.navbar ul li {
-    margin-left: 20px;
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-
 
 .header h1 {
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
+    line-height: 1.5;
 }
 
 .header p {
     font-size: 18px;
-    color: #E5e7eb;
+    margin-bottom: 10px;
 }
 
 .header button {
@@ -66,31 +87,23 @@ body {
     font-weight: 700;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
+}
+
+.header button:hover,
+.header button:focus {
+    background-color: #316ac5;
 }
 
 .header img {
     max-width: 350px;
+    width: 100%;
+    height: auto;
 }
 
-.header {
-    margin: 9em 0;
-    min-height: 400px;
-}
-.header .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.header h1 {
-    line-height: 1.5;
-} 
-
-.header p {
-    margin-bottom: 10px;
-}
-
-.information {
+/* Information Styles */
+.information,
+.quote {
     background-color: #fff;
 }
 
@@ -98,31 +111,153 @@ body {
     padding: 50px 0;
 }
 
-
 .information h2 {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
     text-align: center;
-    margin-bottom: 70px;
-}
-
-.boxes img {
-    max-width: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .information .boxes {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 0 50px;
-
 }
 
 .information .box {
     flex: 1;
     text-align: center;
     line-height: 1.5;
-    margin: 0 30px;
+    margin: 20px;
+    padding: 10px 20px;
 }
 
+.information .boxes img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}
+
+/* Quote Styles */
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    padding: 70px 50px;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.quote p {
+    font-size: 24px;
+    text-align: right;
+}
+
+.feedback {
+    background-color: #fff;
+}
+
+.feedback .container {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback .sub-container {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 15px;
+    justify-content: space-around;
+    width: 100%;
+    padding: 40px 0px;
+    color: #fff;
+}
+
+.feedback button {
+    background-color: transparent;
+    color: #fff;
+    padding:8px 24px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.feedback button:hover,
+.feedback button:focus {
+    background-color: #fff;
+    color: #3882f6;
+}
+
+/* Footer Styles */
+.footer {
+    color: #fff;
+    background-color: #1f2937;
+    padding:20px 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul {
+    padding:0 20px;
+    list-style-type: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer a:hover,
+.footer a:focus {
+    text-decoration: underline;
+}
+
+.footer li {
+    font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column-reverse;
+    }
+
+    .header .container div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap:20px;
+    }
+
+    .information .boxes {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .header img {
+        max-width: 100%;
+    }
+
+    .quote p {
+        font-size: 20px;
+    }
+}
