@@ -1,6 +1,6 @@
-# Aesyntax
+# aesan.dev
 
-Welcome to Aesyntax, where code meets creativity. This is a personal portfolio website for showcasing my skills, projects, and a bit of my philosophy towards coding and design. This project was created using HTML and CSS, focusing on clean design, responsiveness, and accessibility.
+Welcome to aesan.dev, where code meets creativity. This is a personal portfolio website for showcasing my skills, projects, and a bit of my philosophy towards coding and design. This project was created using HTML and CSS, focusing on clean design, responsiveness, and accessibility.
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@ Welcome to Aesyntax, where code meets creativity. This is a personal portfolio w
 
 ## Project Overview
 
-Aesyntax is a digital canvas where creativity and code converge. This website is designed to showcase my work as a developer and designer, highlighting my skillset in UI/UX design, HTML, CSS, and Git.
+aesan.dev is a digital canvas where creativity and code converge. This website is designed to showcase my work as a developer and designer, highlighting my skillset in UI/UX design, HTML, CSS, and Git.
 
 ## Features
 
@@ -30,7 +30,7 @@ Aesyntax is a digital canvas where creativity and code converge. This website is
 ## Folder Structure
 
 ```
-Aesyntax/
+aesandev/
 │
 ├── images/                 # Contains all images used in the project
 │   ├── header.png          # Header image used in the main section
@@ -46,5 +46,5 @@ Aesyntax/
 
 
 ---
-Thank you for visiting Aesyntax! I hope you enjoy exploring my work as much as I enjoyed creating it.
+Thank you for visiting aesan.dev! I hope you enjoy exploring my work as much as I enjoyed creating it.
 
